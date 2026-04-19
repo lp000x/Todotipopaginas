@@ -1,0 +1,240 @@
+@charset "UTF-8";
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    background-color: black;
+    font-family: helvetica, sans-serif;
+}
+
+.intro{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+
+section.intro > a:hover{
+    transform: scale(1.2);
+    box-shadow: 0px 0px 40px rgb(0, 245, 255, 0.5);
+    transition: 0.2s;
+}
+
+.intro > h1{
+    background-image: linear-gradient(to right, rgb(0, 225, 255), rgb(247, 5, 194));
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 4em;
+    font-weight: bolder;
+}
+
+.intro > p{
+    color: rgb(223, 221, 221);
+    margin-top: 20px;
+    font-size: 1.5em;
+    text-align: center;
+    line-height: 2em;
+}
+
+.intro > a{
+    padding: 26px 57px;
+    border-radius: 50px;
+    text-decoration: none;
+    background-image: linear-gradient(to right, rgb(83, 206, 255), rgb(3, 90, 190));
+    color: rgb(2, 23, 36);
+    font-weight: bolder;
+    margin-top: 40px;
+    font-size: 1.5em;
+}
+
+
+
+.grid{
+    display: grid;
+    grid-template: 100px 100px 100px / 300px 300px 300px;
+    color: white;
+    margin-top: 40px;
+    justify-content: center;
+}
+
+div.box1 > h1{
+    color: rgb(0, 183, 255);
+}
+
+div.box2 > h1{
+    color: rgb(0, 183, 255);
+}
+
+div.box3 > h1{
+    color: rgb(0, 183, 255);
+}
+
+.box1{
+    margin-right: 30px;
+    background-color: rgb(22, 22, 22);
+    height: 290px;
+    padding: 30px;
+    border-radius: 20px;
+}
+
+.box1:hover{
+    background-image: linear-gradient(to right, rgb(47, 196, 255) 30%, blue, rgb(212, 0, 255));
+    margin-top: -20px;
+    transition: 0.2s;
+    transform: ease;
+    color: rgb(236, 4, 178);
+    text-shadow: 1px 1px 2px rgba(37, 0, 28, 0.815);;
+}
+
+
+.box2{
+    margin-right: 30px;
+    background-color: rgb(22, 22, 22);
+    height: 290px;
+    padding: 30px;
+    border-radius: 20px;
+}
+
+.box2:hover{
+    background-image: linear-gradient(to right, rgb(47, 196, 255) 30%, blue, rgb(212, 0, 255));
+    margin-top: -20px;
+    transition: 0.2s;
+    transform: ease;
+    color: rgb(236, 4, 178);
+    text-shadow: 1px 1px 2px rgba(37, 0, 28, 0.815);;
+}
+
+
+.box3{
+    margin-right: 30px;
+    background-color: rgb(22, 22, 22);
+    height: 290px;
+    padding: 30px;
+    border-radius: 20px;
+}
+
+.box3:hover{
+    background-image: linear-gradient(to right, rgb(47, 196, 255) 30%, blue, rgb(212, 0, 255));
+    margin-top: -20px;
+    transition: 0.2s;
+    transform: ease;
+    color: rgb(236, 4, 178);
+    text-shadow: 1px 1px 2px rgba(37, 0, 28, 0.815);;
+}
+
+h1{
+    font-size: 4em;
+}
+
+h2{
+    font-weight: bolder;
+}
+
+#h2{
+    color: white;
+    text-align: center;
+    margin-top: 140px;
+    margin-bottom: 80px;
+    font-size: 2em;
+}
+
+.box3 > p{
+    margin-top: 10px;
+    color: grey;
+    font-weight: bolder;
+}
+
+.box2 > p{
+    margin-top: 10px;
+    color: grey;
+    font-weight: bolder;
+}
+
+.box1 > p{
+    margin-top: 10px;
+    color: grey;
+    font-weight: bolder;
+}
+
+
+.sec3{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    width: 70vw;
+    margin: auto;
+    height: 350px;
+    margin-top: 90px;
+    text-align: center;
+    background-color: rgb(22, 22, 22);
+    padding-top: 90px;
+}
+
+
+.top{
+    display: flex;
+    flex-flow: row wrap;
+    color: white;
+    justify-content: center;
+    padding-top: 50px;
+    padding: 10px;
+    
+}
+
+.topics{
+    margin: 10px 20px;
+    background-color: black;
+    color: white;
+    border: 1px solid rgb(83, 83, 83);
+    padding: 10px 15px;
+    border-radius: 15px;
+}
+
+.topics:hover{
+    background-color: rgb(2, 183, 255);
+    color: white;
+    padding: 11px 16px;
+    font-weight: bolder;
+}
+
+
+
+
+.sec4{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: linear-gradient(to right, rgb(0, 247, 255), rgb(4, 150, 187), rgb(0, 247, 255));
+    height: 330px;
+    width: 70vw;
+    margin: 90px auto;
+    padding-top: 90px;
+    border-radius: 20px;
+}
+
+section.sec4 > h1{
+    color: white;
+    font-size: 3em;
+    margin-bottom: 24px;
+}
+
+section.sec4 > p{
+    color: rgb(112, 0, 103);
+    margin-bottom: 35px;
+}
+
+section.sec4 > a{
+    text-decoration: none;
+    color: black;
+    background-image: linear-gradient(to right, rgb(160, 0, 152), rgb(0, 100, 167), rgb(0, 204, 255));
+    padding: 22px 61px;
+    border-radius: 50px;
+    font-weight: bolder;
+    font-size: 1.2em;
+}

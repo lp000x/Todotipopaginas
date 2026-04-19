@@ -1,0 +1,134 @@
+@charset "UTF-8";
+
+/*
+Extra Small: max-width 576
+
+Small: 577px > 767px
+
+Medium: 768px > 991px
+
+Large: 992px > 1199px
+
+Extra large: min-width 1200px
+
+*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+
+@media screen and (max-width: 767px) {
+
+.site, body{
+    height: 100vh;
+}
+
+.divcaixa1{
+    background-color: #e2d7ca;
+}
+
+.cab{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px;
+    margin-bottom: 30px;
+}
+
+header > a{
+    text-decoration: none;
+    color: black;
+    margin-right: 45px;
+}
+
+header > a:hover{
+    text-decoration: underline;
+    transition: 0.1s;
+}
+
+#left{
+    display: flex;
+    flex-direction: row;
+    margin-left: 45px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.sec1{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    text-align: justify;
+    font-size: 2.3em;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+h1 > img{
+    height: 43px;
+}
+
+
+
+
+
+
+
+.sec2{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: left;
+    margin: auto;
+    padding: 10px;
+    width: 492px;
+    height: 130px;
+}
+
+#bo1{
+    background-color: black;
+    color: white;
+    padding: 20px;
+    width: 150px;
+    text-align: center;
+    margin-right: 30px;
+    text-decoration: none;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.418);
+}
+
+#bo2{
+    text-decoration: none;
+    color: black;
+}
+
+#bo1:hover{
+    background-color: white;
+    color: black;
+    font-weight: bolder;
+}
+
+#bo2:hover{
+    text-decoration: underline;
+    font-weight: bolder;
+}
+
+
+
+}
